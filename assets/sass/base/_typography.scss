@@ -1,0 +1,17 @@
+h2{
+    font-size: $font-xx-large;
+    padding-left: 2rem;
+    @include media-breakpoint-down(sm){
+        padding-left: 0;  
+        text-align: center;     
+    }
+}
+
+h5{
+    font-size: $font-x-large;
+    font-weight: $font-bold;
+}
+
+p{
+    font-size: $font-medium;
+}

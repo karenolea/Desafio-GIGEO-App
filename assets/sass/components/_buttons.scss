@@ -1,0 +1,26 @@
+.c-btn{
+    color: $white;
+    padding: 1rem 2rem;
+    margin-left:1rem;
+    font-size: $font-medium;
+    font-family: $montserrat;
+    border: 0;
+
+    &__menssage{
+        background-color: $celeste;
+        @include media-breakpoint-down(sm){
+            display: none;
+         }
+    }
+
+    &__follow{
+        background-color: $rojo;    
+        @include media-breakpoint-down(sm){
+            display: none;
+         }
+    }
+
+    @include media-breakpoint-up(md){
+        padding: 0.8rem 1rem;
+    }
+}

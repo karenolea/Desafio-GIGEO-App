@@ -1,0 +1,17 @@
+.navbar{
+    font-size: 30px;
+
+    &-nav{
+        justify-content: space-between;
+    }
+    &__imagen{
+        padding: 0.5rem;
+    }
+}
+
+.nav-item{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+

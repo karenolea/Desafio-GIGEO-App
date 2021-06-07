@@ -1,0 +1,44 @@
+//imagen de perfil
+.profile{
+    min-height: 10.13rem;
+    border-bottom: 1px solid $gray;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+
+    .row{
+        width: 100%;
+    }
+
+    &__info{
+        margin-left: 1rem;
+    }
+
+    @include media-breakpoint-down(sm){
+        text-align: center;
+    }
+}
+.profile__thumbnail{
+    font-family: $montserrat;
+    display: flex;
+    align-items: center;
+
+    .thumbnail__img{
+        
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;   
+    }
+}
+    
+.profile__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @include media-breakpoint-down(sm){
+        display: none;
+    }
+}
+
+
+
